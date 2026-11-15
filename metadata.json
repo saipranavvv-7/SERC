@@ -1,0 +1,6 @@
+{
+  "name": "SERC - Security Event Response Copilot",
+  "description": "RAG-driven security event response copilot reimplementing the Wazuh Security Event Response paper using Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

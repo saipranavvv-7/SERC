@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}
+
+.serc-markdown h2 {
+  @apply mt-5 mb-2 text-base font-semibold text-slate-900 border-b border-slate-200 pb-1 first:mt-0;
+}
+
+.serc-markdown h3 {
+  @apply mt-3 mb-1.5 text-sm font-semibold text-slate-800;
+}
+
+.serc-markdown p {
+  @apply my-2 text-sm leading-relaxed text-slate-800;
+}
+
+.serc-markdown ul {
+  @apply my-2 list-disc pl-5 space-y-1 text-sm text-slate-800;
+}
+
+.serc-markdown ol {
+  @apply my-2 list-decimal pl-5 space-y-1.5 text-sm text-slate-800;
+}
+
+.serc-markdown li {
+  @apply leading-relaxed;
+}
+
+.serc-markdown code {
+  @apply rounded bg-slate-100 px-1.5 py-0.5 font-mono text-xs text-slate-900 border border-slate-200;
+}
+
+.serc-markdown pre {
+  @apply my-2 overflow-x-auto rounded-md bg-slate-100 p-3 font-mono text-xs text-slate-900 border border-slate-200;
+}
+
+.serc-markdown strong {
+  @apply font-semibold text-slate-950;
+}
